@@ -54,7 +54,7 @@
 
 @media only screen and (max-width: 768px) {
    .main {
-      margin-top:7000px !important;
+      margin-top:0px !important;
    }
 }
 
