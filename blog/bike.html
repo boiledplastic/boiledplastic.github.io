@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="bike/style.css">
+
+</head>
+<style>
+* {
+   cursor: url('mouse.png'), auto;
+}
+
+.header{ /* add hover over rectangle */
+    border: solid 6px transparent;
+}
+.header:hover {
+    border-color: black;
+}
+
+.footer{ /* add hover over rectangle */
+    border: solid 6px transparent;
+}
+.footer:hover {
+    border-color: black;
+}
+a{
+text-decoration: none;
+color: black;
+}
+</style>
+<title> Bike </title>
+<body>
+
+<a href="blog.html" style="text-decoration:none">
+<div class="header">
+  <h2>See other projects</h2>
+</div>
+</a>
+
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card" >
+      <h2>Bicycle Light Indicators</h2>
+      <h5>Safety in Public Transport, Dec 11, 2022</h5>
+      <img src="bike/images/dynamic.jpg" alt="" width ="1250" >
+	  <p>This project involves creating a bicycle light indicator system to improve safety for cyclists at night and in hard to see envornments. We will be creating indicator lights at the back of the bike which can be activated using controls at the front of the bike. 
+For this project, a circuit was needed to blink lights on the left and right side at the press of a button to indicate the turning direction. My initial prototype used an Arduino UNO with code written in C to blink the lights, however due to size limitations of the indicators, I decided to make a specific circuit for this project. This circuit was made using a NE5555 IC to create a LED blinking circuit as seen below, with the final circuit being soldered on perfboard. </p>
+
+	  <img src="bike/images/circuit.png" alt=""  width ="1250">
+	  <p> This model used a 9V battery, as it is widely accessable. the value of the capacitor was then altered to change the rate at which the lights blink. The circuit was then implemented on a breadboard for testing.</p>
+	  <img src="bike/images/breadboard.jpg" alt="" width ="1250" >
+	
+      
+	  <p>Once we have our desired outcome, the circuit is soldered onto a peice of perfboard, with a series of resistors used to maximise visibility under a bicycle.</p>
+	
+	  
+	  
+	  <img src="bike/images/perfboard.jpg" alt="" width ="1250" >
+	  <p> the under side of the perfboard is as seen here, with a score made in the middle to prevent short circuiting. </p>
+	  <img src="bike/images/perfboardback.png" alt="" width ="1250" >
+<p> This section of the project caused some immense issues during development. the case used to enclose the electronics was made using a 3D-printer with a limited printing size, meaning the case was printed smaller than expected. This meanst that the 9V battery would not fit inside the case. To solve this issue, I soldered three 3V batteries together in series, however directly soldering onto batteries proved to be a time consuming challenge, and also create quite a clostrophobic layout. </p>
+	  <img src="bike/images/topdown.jpg" alt="" width ="1250" >
+<p> For the prototype, the buttons were placed on the back of the case instead of on a separate controler due to time restraints. the three buttons are used to control each of the lights, with the left and right lights rapidly blinking, and the middle button staying on for more visibility.  </p>
+	  <img src="bike/images/topdownon.jpg" alt="" width ="1250" >
+<p> In real life tests, i found that the sizing of the indicators proved to be usable, however the LEDs were only visible in dark conditions. For a revision to this project, I would have to find a method to make the lights significantly brighter, along with a method of creatign a bluetooth controller to activate the lights.</p>
+	  <img src="bike/images/onbike.jpg" alt="" width ="1250" >
+
+	</div>
+    
+  </div>
+
+</div>
+
+<a href="blog.html" style="text-decoration:none">
+<div class="footer">
+ <h2>See other projects</h2> 
+</div></a>
+
+</body>
+</html>

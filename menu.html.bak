@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome</title>
+    <link rel="stylesheet" href="menu/style.css">
+	
+	
+	
+</head>
+<body>
+
+
+
+    <div class="wrapper">
+        <nav>
+            <ul>
+                <li>
+                    <a href="gallery.html">Art</a>
+                </li>
+
+                <li>
+                    <a href="blog/blog.html">Engineering</a>
+                </li>
+
+                <li>
+                    <a href="https://www.youtube.com/@boiledplastic">Animations</a>
+                </li>
+            </ul>
+        </nav>
+
+        <div class="cursor"></div>
+    </div>
+    
+
+</body>
+</html>

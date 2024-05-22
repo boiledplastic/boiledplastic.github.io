@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+* {
+   cursor: url('mouse.png'), auto;
+}
+
+
+
+
+.wrapper {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    cursor: url('mouse.png'), auto;
+}
+#gallery {
+   line-height:0;
+   -webkit-column-count:3; /* split it into 5 columns */
+   -webkit-column-gap:6px; /* give it a 5px gap between columns */
+   -moz-column-count:3;
+   -moz-column-gap:6px;
+   column-count:3;
+   column-gap:6px;
+}
+
+
+#gallery img {
+   width: 100% !important;
+   height: auto !important;
+   margin-bottom:5px; /* to match column gap */
+}
+
+@media (max-width: 1200px) {
+   #gallery {
+    -moz-column-count:    4;
+    -webkit-column-count: 4;
+    column-count:         4;
+   }
+}
+
+@media (max-width: 800px) {
+   #gallery {
+    -moz-column-count:    2;
+    -webkit-column-count: 2;
+    column-count:         2;
+   }
+}
+
+@media (max-width: 400px) {
+   #gallery {
+    -moz-column-count:    1;
+    -webkit-column-count: 1;
+    column-count:         1;
+   }
+}
+
+#gallery img { /* add hover over rectangle */
+    border: solid 6px transparent;
+}
+#gallery img:hover {
+    border-color: black;
+}
+/*navigation bar */
+
+
+
+ /* The navigation bar */
+.navbar {
+  overflow: hidden;
+  background-color: #FFF;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+  cursor: url('mouse.png'), auto;
+
+}
+
+/* Links inside the navbar */
+.navbar a {
+  font-size: 25px; 
+  float: left;
+  display: block;
+  color: #000;
+  text-align: center;
+  padding: 5px 250px;
+  text-decoration: none;
+}
+
+
+/* Main content */
+.main {
+  margin-top: 2450px; /* Add a top margin to avoid content overlay */ 
+} 
+
+
+
+/* Change background on mouse-over */
+.navbar a:hover {
+      cursor: url('mouse.png'), auto;
+}
+
+
+.logo {
+    display: block;
+    width: 5vw; // if it's too big or small you can re-adjust to your prefered size.
+    height: 5vh;
+}
+nav ul li a:hover {
+    cursor: url('mouse.png'), auto;
+}
+
+.cursor {
+    position: fixed;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 2px solid #eee;
+    left: 0;
+    transform: translate(-50%, -50%);
+    pointer-events: none;
+    transition: width 1000ms, height 1000ms;
+}
+
+.cursor.large {
+    height: 70px;
+    width: 70px;
+}
+
+

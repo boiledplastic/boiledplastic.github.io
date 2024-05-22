@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="main">
+  
+</div> 
+
+<!-- nav bar --> 
+
+ <div class="navbar">
+  <a href="#home"><img src="banner.png" width="30%" height="30%"> </a>
+</div>
+
+<!-- nav bar --> 
+
+    <div class="wrapper">
+        
+	
+			
+<div id="gallery">
+	
+   <img class="zoom" src="images/trava.png">
+   <img class="zoom" src="images/marinescketch.jpg">
+   <img class="zoom" src="images/barbatos.png">
+   <img class="zoom" src="images/robotrain.png">
+   <img class="zoom" src="images/katana.png">
+   <img class="zoom" src="images/fisheye.png">
+   <img class="zoom" src="images/giorno.png">
+   <img class="zoom" src="images/redgirl.png">
+   <img class="zoom" src="images/cannonbw.png">
+   <img class="zoom" src="images/lain2.png">  
+   <img class="zoom" src="images/3d/p3.png">
+   <img class="zoom" src="images/3d/0024.png">
+   <img class="zoom" src="images/3d/0003.png"> 
+   <img class="zoom" src="images/3d/pingu.png"> 
+   <img class="zoom" src="images/deathsketch.jpg">
+   <img class="zoom" src="images/penguin.png">
+   <img class="zoom" src="images/illustration2.png">
+   <img class="zoom" src="images/catsketch.jpg">     
+   <img class="zoom" src="images/3d/hall.png">
+   <img class="zoom" src="images/psyposter.png">
+   <img class="zoom" src="images/bakugan.png">
+   <img class="zoom" src="images/owl.png">
+   <img class="zoom" src="images/robogirl2.png">
+   <img class="zoom" src="images/train.png">
+   <img class="zoom" src="images/frog.png">
+   <img class="zoom" src="images/city10.png">
+   <img class="zoom" src="images/skelling2.png">
+   <img class="zoom" src="images/train2.png">
+  
+  </div>
+          
+
+    </div>
+    <script src="medium-zoom.js"> </script>
+    <script src="main.js"> </script>
+	
+</body>
+</html>

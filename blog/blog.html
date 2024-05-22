@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Signika+Negative:wght@300..700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+<style>
+
+* {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+body {
+  background-image: url('graphbg.png');
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
+/* Add a gray background color with some padding */
+body {
+  font-family: Arial;
+  padding: 20px;
+  background-image: url('graphbg2.png');
+}
+
+/* Header/Blog Title */
+.header {
+  padding: 5px;
+  font-size: 25px;
+  text-align: center;
+  background: white;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+  float: left;
+  width: 75%;
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 25%;
+  padding-left: 20px;
+}
+
+/* Fake image */
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Add a card effect for articles */
+.card {
+   background-color: white;
+   padding: 20px;
+   margin-top: 20px;
+}
+.card2 {
+   background-color: white;
+   padding: 20px;
+   margin-top: 20px;
+}
+
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+  margin-top: 20px;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+
+img { 
+
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: auto%;
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+
+
+}
+div.about{
+  line-height: 1.4; 
+}
+
+a{
+text-decoration: none;
+color: black;
+}
+
+.card{ /* add hover over rectangle */
+    border: solid 6px transparent;
+}
+.card:hover {
+    border-color: black;
+}
+
+* {
+   cursor: url('mouse.png'), auto;
+}
+
+</style>
+</head>
+<title> Blog </title>
+<body>
+
+<div class="header">
+  <h2>Current projects</h2>
+</div>
+
+<div class="row">
+  <div class="leftcolumn">
+  <a href="rover.html" style="text-decoration:none">
+    <div class="card" >
+      <h2>Mars Rover Prototype</h2>
+      <h5>Group Rover Competition, Dec 7, 2023</h5>
+      <img src="banners/roverbanner.png" alt="" width ="1250" >
+      <p>This project focuses on the ideation, design and physical implementation of a Mars rover prototype used for a course wide competition.</p>
+      <p>Click to find out more information..</p>
+	</div>
+	</a>
+	<a href="bike.html" style="text-decoration:none">
+    <div class="card">
+      <h2>Bicycle Light Indicator</h2>
+      <h5>Bicycle Light Indicators, Dec 11, 2022</h5>
+      <img src="banners/bikebanner.png" alt="" width ="1250" >
+      <p>This project follows the circuit design and soldering process of a bike indicator light system.</p>
+	  <p>Click to find out more information..</p>
+	</div>
+	</a>
+	<a href="escapepod.html" style="text-decoration:none">
+	<div class="card">
+	
+      <h2>Rover Escape Pod</h2>
+      <h5>Designs Using Biomimicry, Oct 22, 2023</h5>
+      <img src="banners/podbanner.png" alt="" width ="1250" >
+      <p>The documentation of an escape pod created using bioinspiration along with the TRIZ framework to find methods of improving the design.</p>
+      <p>Click to find out more information..</p>
+	</div>
+	</a>
+  </div>
+  <div class="rightcolumn">
+    <div class="card2">
+      <h2>About Me</h2>
+      <img src="banners/logo.jpg" alt="" width ="1250" >
+      <div class="about" > <p>Hey there, this is Armin here also running by the alias 'Boiled Plastic'. You can find all the stuff I'm currently working on through this website, both engineering and non engineering related, ranging from art and animation to PCB and CAD modelling..</p> </div>
+    </div>
+	
+    <div class="card2">
+      <h3>Follow Me</h3>
+	  <p> <a href="https://www.youtube.com/channel/UCQdXP__UDGEGvmtKVGer94A" >> YouTube </a> </p>
+    </div>
+	
+
+
+	<!--	
+    <div class="card">
+      <h3>Popular Post</h3>
+      <div class="fakeimg">Image</div><br>
+      <div class="fakeimg">Image</div><br>
+      <div class="fakeimg">Image</div>
+    </div> -->
+
+  </div>
+</div>
+
+<div class="footer">
+  <h2></h2>
+</div>
+
+</body>
+</html>

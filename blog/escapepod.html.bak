@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="pod/style.css">
+
+</head>
+<style>
+* {
+   cursor: url('mouse.png'), auto;
+}
+
+.header{ /* add hover over rectangle */
+    border: solid 6px transparent;
+}
+.header:hover {
+    border-color: black;
+}
+
+.footer{ /* add hover over rectangle */
+    border: solid 6px transparent;
+}
+.footer:hover {
+    border-color: black;
+}
+a{
+text-decoration: none;
+color: black;
+}
+</style>
+<body>
+
+<a href="blog.html" style="text-decoration:none">
+<div class="header">
+  <h2>See other projects</h2>
+</div>
+</a>
+
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card" >
+      <h2>Rover Escape Pod</h2>
+      <h5>Designs Using Biomimicry, Dec 7, 2023</h5>
+	         
+
+
+      <img src="pod/images/image6.png" alt="" width ="1250" >
+	  <p>This project invovles using bioinspiration and the TRIZ framework to create an ejection pod system for a rover. For a video summary of the project, please watch the video below.</p>
+
+<iframe width="1290" height="600" src="https://www.youtube.com/embed/H0g7x--aFdM?si=VEsjrX0eEVXGjKg9"> </iframe> 
+	  <p>The initial design was based after the Alsomitra Macrocarpa, a type of seed which glides down to the floor from high altitudes using the large surface area of its 'wings'. </p>
+<img src="pod/images/seed.png" alt="" width ="1250" >
+<p> The initial idea for the wings was to have them made of a fabric, however when we consider the weight of the pod itself it would be a much wiser idea to have solid wings for improved stability, and a method of storing these wings. 
+To improve wing strength, I looked at the wings of locusts which use their veins as a method of improving wing strength, while not increasing weight. To mimic this, a Voronoi generator was used to create a similar effect. </p>
+<img src="pod/images/wing.png" alt="" width ="1250" >
+<p>We also need a method to reduce the impact force. As the speed of the pod increases, we want to make sure the volume of our object isn’t affected in a negative way. Using the TRIZ matrix, we’re led to looking at the theory of a nested doll. Placing multiple objects inside of each other. Interestingly, this is the same principle seen in toucan beaks. Toucan beaks have a very strong thin outer shell, which has a thick lining of foam on the inside to absorb shock. The rest of the beak is empty to make the structure lightweight. To emulate the hard outer shell, the pod has been constructed out of an aluminium shell, which is both durable and lightweight. </p>
+<img src="pod/images/beak.png" alt="" width ="1250" >
+<p>The actual launcher for the pod went through several different iterations, in the final version the ejector holds the wings up at a 35 angle. 4 cylinders are used to hold them up, while also stopping the pod from accidentally leaving the rover. A claw at the back holds the pod in place before lift-off. The spring-loaded mechanism will launch the pod forward. Once it reaches a specific point on the runway, The catapult is powered by a motor and will then launch the pod up vertically. As the pod is in mid air, the wings will then hold outwards to allow it to glide. Magnets are used in the wings to hold them outwards, so they don’t retract back inwards. Launching it into the air and allowing it to glide. 2 springs are used on hinges of the wings. </p>
+<img src="pod/images/image9.png" alt="" width ="1250" >
+<p> To test the structural stability of the pod, several instances of Finite Element Analysis were used, including both static and dynamic as seen below. More information about this project can be found with the video listed above.  </p>
+<img src="pod/images/FEA.png" alt="" width ="1250" >
+
+	</div>
+  </div>
+</div>
+
+<a href="blog.html" style="text-decoration:none">
+<div class="footer">
+ <h2>See other projects</h2> 
+</div></a>
+
+</body>
+</html>

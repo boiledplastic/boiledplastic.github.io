@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+<div class="header">
+  <h2>Blog Name</h2>
+</div>
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card" >
+      <h2>ROVER</h2>
+      <h5>Title description, Dec 7, 2017</h5>
+      <img src="images/finalCAD.jpg" alt="" width ="1250" >
+	  <p>CAD designer and builder for mars rover, explain design process. 
+Creating a prototype rover for a course wide  competition. Rover must traverse through an obstacle course, pick up objects with a claw and drill through different sediments all while competing for the fastest time. 
+</p>
+<p>Original design was based on a turtle shell, however after prototyping with vacuum forming I decided to switch to a more angular approach using laser cutting. </p>
+	  
+	  <img src="images/prototype.png" alt="" width ="1250" >
+      <p>This design required much more thought during the design process, but also gave specific compartments for the batter and motor carrier. </p>
+	  <img src="images/lasercutting2.png" alt=""  width ="1250">
+	  <p> We were also required to make a suspension system to minimise the impact of a drop test. This system was made using widely available parts in the lab.</p>
+	  <img src="images/suscomp.png" alt="" width ="1250" >
+	
+      
+	  <p>I designed a needle shape for the drill similar to precusive drills, with a rack and pinion attached to a servo motor to allow for repetitive strikes.</p>
+	  <p>For maximum efficiency, we created a very simplistic claw as to not make the rover too front heavy. </p>
+	  
+	  
+	  <img src="images/finalCAD.jpg" alt="" width ="1250" >
+	  <p> text </p>
+	  <img src="images/rover.jpg" alt="" width ="1250" >
+
+
+	</div>
+    
+  </div>
+
+</div>
+
+<div class="footer">
+  <h2>Footer</h2>
+</div>
+
+</body>
+</html>
