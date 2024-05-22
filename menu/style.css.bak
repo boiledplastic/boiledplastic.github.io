@@ -71,36 +71,10 @@ nav ul li a:hover {
     cursor: url('img/custom-cursor.png'), auto;
 }
 
-/*navigation bar */
-
-
-
- /* The navigation bar */
-.navbar {
-  overflow: hidden;
-  background-color: #FFF;
-  position: fixed; /* Set the navbar to fixed position */
-  top: 0; /* Position the navbar at the top of the page */
-  width: 100%; /* Full width */
-  cursor: url('img/custom-cursor.png'), auto;
-
-}
-
-/* Links inside the navbar */
-.navbar a {
-  font-size: 25px; 
-  float: left;
-  display: block;
-  color: #000;
-  text-align: center;
-  padding: 0px 500px;
-  text-decoration: none;
-}
-
-
-
-
-/* Change background on mouse-over */
-.navbar a:hover {
-      cursor: url('img/custom-cursor.png'), auto;
+@media only screen and (max-width: 768px) {
+   * {
+      left:0 !important;
+	  margin: 0 !important;
+      padding: 0 !important;
+   }
 }

@@ -75,3 +75,11 @@ img {
 
 
 }
+
+@media only screen and (max-width: 768px) {
+   .leftcolumn {   
+ padding-left: 0px !important;
+  width: 100% !important;
+  margin: auto !important;
+}
+}
