@@ -137,6 +137,16 @@ color: black;
 
 <div class="row">
   <div class="leftcolumn">
+  <a href="plantower.html" style="text-decoration:none">
+    <div class="card" >
+      <h2>Smart Plant Tower</h2>
+      <h5>Group Design Project, Apr 8, 2024</h5>
+      <img src="banners/plantbanner.png" alt="" width ="1250" >
+      <p>This project focuses on the ideation, design and physical implementation of a Mars rover prototype used for a course wide competition.</p>
+      <p>Click to find out more information..</p>
+	</div>
+	</a>
+ 
   <a href="rover.html" style="text-decoration:none">
     <div class="card" >
       <h2>Mars Rover Prototype</h2>
@@ -175,7 +185,7 @@ color: black;
 	
     <div class="card2">
       <h3>Follow Me</h3>
-	  <p> <a href="https://www.youtube.com/channel/UCQdXP__UDGEGvmtKVGer94A" > YouTube </a> </p>
+	  <p> <a href="https://www.youtube.com/channel/UCQdXP__UDGEGvmtKVGer94A" >> YouTube </a> </p>
     </div>
 	
 

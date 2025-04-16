@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="rover/style.css">
+</head>
+<style>
+* {
+   cursor: url('mouse.png'), auto;
+}
+
+.header{ /* add hover over rectangle */
+    border: solid 6px transparent;
+}
+.header:hover {
+    border-color: black;
+}
+
+.footer{ /* add hover over rectangle */
+    border: solid 6px transparent;
+}
+.footer:hover {
+    border-color: black;
+}
+a{
+text-decoration: none;
+color: black;
+}
+</style>
+<title> Plant Tower </title>
+<body>
+<a href="blog.html" style="text-decoration:none">
+<div class="header">
+  <h2>See other projects</h2>
+</div>
+</a>
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card" >
+      <h2>Smart Plant Tower</h2>
+      <h5>Group Design Project, Apr 8, 2024</h5>
+      <img src="plantower/images/image1.png" alt="" width ="1250" >
+	  <p> 
+	   This project focused on the design and financial breakdown of a plant tower designed to use solar panels to generate energy used to automate plant growth sustainably, inspired by agrivoltaics. The design aims to tackle SDG 11: Sustainable cities and communities and SDG 7: Affordable and clean energy. The solar panels are angled inwards into the centre of the tower, which acts as a funnel for collecting rainwater. This water can then be pumped around the design and dispersed to the attached plants with the use of a water  pump. The designs semi-portable nature means several of these towers can be used together for optimum efficiency. 
+	  </p>
+	  <p>
+	  Initial planning began with comparing current products on the market with the use of a table outlining the main advantages and disadvantages of competitors to analyse potential gaps in the market. It was found that most towers on the market do not provide a method of energy generation through solar panels, or do not have a water pump.
+	  </p>
+	  <img src="plantower/images/table.png" alt="" width ="1250" >
+	  <p>
+	  After a full analysis was made, different design sketches were made to try and best capture the current gap in the market. 
+	  </p>
+	  <img src="plantower/images/sketches.png" alt="" width ="1250" >
+	  <p>
+	  A comparison between these sketches found Design C to be the most intuitive. This model was created by combining the vertical structure of Design A and the use of solar panels, and the water collection system of Design B. 
+	  </p>
+	  <p>
+	  Since solar panels are usually created on a flat surface, the panels are organized in a hexagonal shape to emulate the funnel design. A water pump spirals across the core of the tower, which can disperse water to plant pots situated on the tower. If a heater is needed to keep plants at an optimum temperature, plastic curtains can also be used to insulate heat. This final design also uses wheels on the base for ease of transport.
+	  </p>	  
+	  <img src="plantower/images/top2.png" alt="" width ="1250" >
+	  <p>
+	  Valves connected to the water pump can be controlled using an arduino system, which can automatically water plants at any given time.
+	  </p>	  
+	  <img src="plantower/images/closeup.png" alt=""  width ="1250">	  
+	  <p> Below is a list of all the components the final design tries to implement: </p>
+	  <p>	  
+1. Cylindrical-shaped reservoir: It is located at the centre of the plant tower and is holed in the
+middle to allow for the rainwater to be collected inside. Given situations where there is no
+rainwater, water can also be manually added to the reservoir from the top of the tower.
+</p><p>
+2. Filter (Sieve): It is located at the top of water reservoir, and it denies the debris from entering the
+reservoir to assure that clean water is delivered to the plants.
+</p><p>
+3. Water pump: It is located at the bottom of the tower and its job is to push the water back up.
+</p><p>
+4. Spiral-shaped pipes: In which the push backed water go through and it includes on electronic
+valves connected to the moisture sensors. These valves evenly supply water to the individual pots at
+all heights.
+</p><p>
+5. Roof with solar panels: It is located at the top of the tower and provided with solar panels that
+provide the system with the necessary power to make it works.
+</p><p>
+6. Rechargeable lithium-ion battery using M-Bric technology: It is charged by the solar panels at the
+roof, and it stays from 1 to 3 days on a single charge.
+</p><p>
+7. LEDs for lighting: It is located vertically along the sides of the tower and opposite to the plants to
+provide them with the necessary lighting to make their growth process faster.
+</p><p>
+8. Heater: It is connected to the temperature sensors, and it provides the plants with the required
+temperature to guarantee a successful planting.
+</p><p>
+9. Resistive Soil moisture sensors: they are used to measure moisture within the soil of each plant.
+When needed, the specific valve for the plant pot will open and the water pump will activate for a
+long enough time to hydrate the plant. The moisture in each plant pot is periodically checked to see
+whether it needs to be watered or not.
+</p><p>
+10. Temperature sensors: they are a type of thermostat used to keep an adequate temperature. They
+are responsible for monitoring the temperature all the time and adjust it adequately.
+</p><p>
+11. Arduino IDE: It works collaboratively with the soil moisture sensors and temperature sensors
+for a perfectly automated system.
+</p><p>
+12. Castors: Whereby the whole system is located on them to make it free rolling to get as
+maximum sunlight exposure and it can be locked anytime to assure that the tower is stable.
+Note that all wiring must be waterproofed, loose cables can be wrapped around the main spiral
+shape the water goes through.
+	  </p>		
+	  <img src="plantower/images/rain.png" alt="" width ="1250" >
+<p> Below is a list of all the features the final design tries to implement: </p> 
+<p>1. It has a self-watering system that is controlled by the soil moisture sensors which reduces results in reducing the issues of over or under-watering.</p>
+
+<p>2. Naturally collects rainwater which is fed back into the system to automatically water the plants.</p>
+
+<p>3. It has a self-monitoring heating system controlled by the temperature sensors.</p>
+
+<p>4. It depends on the solar power which is considered as a sustainable renewable energy.</p>
+
+<p>5. It is an eco-friendly design since it has zero harmful emissions released into the air.</p>
+
+<p>6. It has a lighting system to speed up the growth process of the plants.</p>
+
+<p>7. It does not consume too much water because of its vertical structure whereby it consumes 99% less water than traditional farming.</p>
+
+<p>8. The plant tower excels in its high durability since the majority of its materials are stainless steel which is an extremely tough metal with high impact resistance.</p>
+
+<p>9. To allow for a wider range of crops and vegetables, the plant pots can also be swapped out to varied sizes but limited to not exceed the dimension of the solar panels. This prevents breakdown of the entire tower and helps to evenly distribute weight balance overall throughout the tower.</p>
+
+
+	</div>
+    
+  </div>
+
+</div>
+
+
+<a href="blog.html" style="text-decoration:none">
+<div class="footer">
+ <h2>See other projects</h2> 
+</div></a>
+
+</body>
+</html>
