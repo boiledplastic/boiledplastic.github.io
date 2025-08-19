@@ -1,0 +1,90 @@
+* {
+  box-sizing: border-box;
+}
+
+/* Add a gray background color with some padding */
+body {
+  font-family: Arial;
+  padding: 20px;
+  background: #f1f1f1;
+}
+p{
+	font-size: 20px;
+	
+	
+}
+/* Header/Blog Title */
+.header {
+  padding: 20px;
+  font-size: 20px;
+  text-align: center;
+  background: white;
+}
+
+h1 {
+  text-align: center;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+ padding-left: 10px;
+  width: 75%;
+  margin: auto;
+}
+
+
+/* Fake image */
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Add a card effect for articles */
+.card {
+   background-color: white;
+   padding: 20px;
+   margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+  margin-top: 20px;
+}
+
+
+h2 {text-align: center;}
+h5 {text-align: center;}
+
+img { 
+
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: auto%;
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+
+
+}
+
+@media only screen and (max-width: 768px) {
+   .leftcolumn {   
+ padding-left: 0px !important;
+  width: 100% !important;
+  margin: auto !important;
+}
+}
+

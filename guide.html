@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style.css">
+</head>
+<style>
+
+a{
+text-decoration: none;
+color: black;
+}
+</style>
+<title> Mesh Cleaning Tool </title>
+<body>
+    <!--
+<a href="blog.html" style="text-decoration:none">
+<div class="header">
+  <h2>See other projects</h2>
+</div>
+</a>-->
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card" >
+      <h1>Mesh Cleaning tool</h1>
+      <h5>Comprehensive Guide, Sept 19, 2025</h5>
+	  <h2>The basics:</h2>
+      <p> 
+      Firstly import the 3D scan into blender, this file needs to be saved as a type such as .stl, .obj or .glb.  	  </p>
+	  <img src="gifs/import.gif" alt="" width ="1250" >
+      <p>
+      The scan may need to be re-oriented or rescaled when imported, luckily this is quite easy to do in blender. 	  </p>
+	  <p>To rotate the scan, select the object by clicking on it and press ‘R’ for rotate to freely rotate it. To select a specific axis of rotation, press either ‘X’, ‘Y’ or ‘Z’ to lock the rotation to have the scan facing upwards. </p>
+      <p>To scale the mesh correctly, press ‘S’ using the same method.</p>
+      <img src="gifs/rotate.gif" alt="" width ="1250" >
+	  <h2>Cleaning the mesh:</h2>
+      <!--<img src="images/booleanoperator.png" alt="" width ="1250" > -->
+      <p>
+      When a 3d scan is taken, background information of the environment will also be scanned. This script has been designed to easily remove unnecessary information by users inexperienced with 3D modelling software. This process works by adding a cube into the scnene and using the  intersection between the cube and the undesired mesh to clean the model.	  </p>
+	  <p>
+      To add a cube, press the ‘Add Cube’ button. Use ‘S’ to scale the cube to the desired size and ‘G’ to move it to the desired location.	  </p>
+	  <img src="gifs/addcube.gif" alt="" width ="1250" >
+      <p>
+      Next, select the 3D scan of the limb and the cube in the selection area below using the eyedropper tool. Once selected press the ‘Apply Boolean Modifier’ button to clean the mesh. 	  </p>	  
+	  <img src="gifs/selection.gif" alt="" width ="1250" >
+	  <h2>Asessing Mesh Quality:</h2>
+      <p>
+    After cleaning the mesh, the quality of the mesh can be assessed to see if the scan can be used further. 
+    </p>	  
+	  <img src="gifs/meshquality.gif" alt=""  width ="1250">	  
+	  <p> 
+    This algorithm will look at the normals of neighbouring faces and measure the internal angle between them using the dot product of the vectors, these values are then calculated into an average and standard deviation to easily assess mesh quality, which are combined into a ‘score’.     </p>
+	  <p>	  
+A threshold value can also be selected to visually show where the program is detecting jagged edges so that the user can focus on these areas when taking future scans. 
+</p>
+	</div>
+    
+  </div>
+
+</div>
+
+
+
+</body>
+</html>
