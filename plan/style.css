@@ -1,0 +1,49 @@
+table {
+  border-collapse: collapse;
+  scale: 120%;
+}
+
+th, td {
+  border: 1px solid black;
+  padding: 6px;
+  text-align: center;
+}
+
+input[type="text"],
+textarea {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0px;
+}
+
+.tables-container {
+  display: flex;
+  gap: 80px;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.right-column {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+textarea {
+  width: 100%;
+  resize: none; /* optional: prevents dragging */
+  box-sizing: border-box;
+  font-family: inherit;
+}
+
+#clear-day {
+  margin-top: 10px;
+  padding: 6px;
+  cursor: pointer;
+}
+
+h2 {
+  text-align: center;      /* Centers the title horizontally */
+  font-size: 24px;         /* Optional: Adjusts the font size */
+  margin: 0px 0 80px 0;   /* Top and bottom margins of 20px for balance */
+}

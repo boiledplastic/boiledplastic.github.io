@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Daily Planner</title>
+  <link rel="stylesheet" href="plan/style.css">
+
+  <script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-app-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-database-compat.js"></script>
+</head>
+
+<body>
+  <h2>Today's date: <span id="date"></span></h2>
+
+ <div class="tables-container">
+  <!-- LEFT: MAIN PLANNER -->
+  <table>
+    <thead>
+      <tr>
+        <th>Time</th>
+        <th>To Do</th>
+        <th>Priority</th>
+      </tr>
+    </thead>
+    <tbody id="planner"></tbody>
+  </table>
+
+  <!-- RIGHT COLUMN -->
+  <div class="right-column">
+    <!-- GOAL TABLE -->
+<table>
+  <thead>
+    <tr>
+      <th>Goals for the day</th>
+    </tr>
+  </thead>
+  <tbody id="goal-table">
+    <tr>
+      <td> 
+        <textarea
+          id="goal-text"
+          rows="5"
+          maxlength="120"
+        ></textarea>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+
+    <!-- NOTES TABLE (existing one) -->
+    <table>
+      <thead>
+        <tr>
+          <th>Notes for tomorrow</th>
+        </tr>
+      </thead>
+      <tbody id="side-table">
+        <tr><td><input type="text"  maxlength="20" data-row="1"></td></tr>
+        <tr><td><input type="text"  maxlength="20" data-row="2"></td></tr>
+        <tr><td><input type="text"  maxlength="20" data-row="3"></td></tr>
+      </tbody>
+    </table>
+	<button id="clear-day">Clear all data</button>
+
+  </div>
+</div>
+
+
+  <script src="app.js"></script>
+</body>
+
+  </table>
+
+  <script src="app.js"></script>
+</body>
+</html>
