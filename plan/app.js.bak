@@ -13,9 +13,7 @@ firebase.initializeApp(firebaseConfig);
 const db = firebase.database();
 
 /**************** DATE ****************/
-/* const today = new Date().toISOString().slice(0, 10); */
-const today = "current";
-
+const today = new Date().toISOString().slice(0, 10);
 document.getElementById("date").textContent = today;
 
 /**************** BUILD TABLE ****************/
